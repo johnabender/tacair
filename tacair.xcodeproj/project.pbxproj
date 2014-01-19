@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C30BF7E41868AA3F00BDE87E /* TAArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = C30BF7E31868AA3F00BDE87E /* TAArrowView.m */; };
+		C30BF7E71869E2D700BDE87E /* TAHandleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C30BF7E61869E2D700BDE87E /* TAHandleView.m */; };
+		C33A9EDC15718442007196EB /* clear1.bmp in Resources */ = {isa = PBXBuildFile; fileRef = C33A9EA115718442007196EB /* clear1.bmp */; };
+		C33A9EDD15718442007196EB /* clear2.bmp in Resources */ = {isa = PBXBuildFile; fileRef = C33A9EA215718442007196EB /* clear2.bmp */; };
+		C33A9EDE15718442007196EB /* clear3.bmp in Resources */ = {isa = PBXBuildFile; fileRef = C33A9EA315718442007196EB /* clear3.bmp */; };
+		C33A9EFB15718442007196EB /* lake.bmp in Resources */ = {isa = PBXBuildFile; fileRef = C33A9EC215718442007196EB /* lake.bmp */; };
+		C33A9F0915718442007196EB /* road.bmp in Resources */ = {isa = PBXBuildFile; fileRef = C33A9ED115718442007196EB /* road.bmp */; };
+		C33A9F0A15718442007196EB /* rocky1.bmp in Resources */ = {isa = PBXBuildFile; fileRef = C33A9ED215718442007196EB /* rocky1.bmp */; };
+		C33A9F0B15718442007196EB /* rocky2.bmp in Resources */ = {isa = PBXBuildFile; fileRef = C33A9ED315718442007196EB /* rocky2.bmp */; };
+		C33A9F0C15718442007196EB /* rocky3.bmp in Resources */ = {isa = PBXBuildFile; fileRef = C33A9ED415718442007196EB /* rocky3.bmp */; };
+		C33A9F0D15718442007196EB /* urban1.bmp in Resources */ = {isa = PBXBuildFile; fileRef = C33A9ED515718442007196EB /* urban1.bmp */; };
+		C33A9F0E15718442007196EB /* urban2.bmp in Resources */ = {isa = PBXBuildFile; fileRef = C33A9ED615718442007196EB /* urban2.bmp */; };
+		C33A9F0F15718442007196EB /* urban3.bmp in Resources */ = {isa = PBXBuildFile; fileRef = C33A9ED715718442007196EB /* urban3.bmp */; };
+		C33A9F1015718442007196EB /* white.bmp in Resources */ = {isa = PBXBuildFile; fileRef = C33A9ED815718442007196EB /* white.bmp */; };
+		C33A9F1115718442007196EB /* woods1.bmp in Resources */ = {isa = PBXBuildFile; fileRef = C33A9ED915718442007196EB /* woods1.bmp */; };
+		C33A9F1215718442007196EB /* woods2.bmp in Resources */ = {isa = PBXBuildFile; fileRef = C33A9EDA15718442007196EB /* woods2.bmp */; };
+		C33A9F1315718442007196EB /* woods3.bmp in Resources */ = {isa = PBXBuildFile; fileRef = C33A9EDB15718442007196EB /* woods3.bmp */; };
+		C33A9F2B15718C5F007196EB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33A9F2A15718C5F007196EB /* QuartzCore.framework */; };
+		C33A9F90157ACF1C007196EB /* TAUnit.m in Sources */ = {isa = PBXBuildFile; fileRef = C33A9F8F157ACF1C007196EB /* TAUnit.m */; };
+		C33A9F94157AD289007196EB /* TATank.m in Sources */ = {isa = PBXBuildFile; fileRef = C33A9F93157AD289007196EB /* TATank.m */; };
+		C33A9F97157AD5DA007196EB /* TAGame.m in Sources */ = {isa = PBXBuildFile; fileRef = C33A9F96157AD5DA007196EB /* TAGame.m */; };
+		C33A9F9B157AD5F9007196EB /* TAGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C33A9F99157AD5F8007196EB /* TAGameViewController.m */; };
+		C33A9F9C157AD5F9007196EB /* TAGameViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C33A9F9A157AD5F8007196EB /* TAGameViewController.xib */; };
+		C33A9FA2157AD842007196EB /* TATeam.m in Sources */ = {isa = PBXBuildFile; fileRef = C33A9FA1157AD841007196EB /* TATeam.m */; };
+		C33A9FA5157AE2AD007196EB /* TARoundedOverlayView.m in Sources */ = {isa = PBXBuildFile; fileRef = C33A9FA4157AE2AD007196EB /* TARoundedOverlayView.m */; };
+		C33A9FBD157BE4C5007196EB /* TATankPlacementViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C33A9FBB157BE4C5007196EB /* TATankPlacementViewController.m */; };
+		C33A9FBE157BE4C5007196EB /* TATankPlacementViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C33A9FBC157BE4C5007196EB /* TATankPlacementViewController.xib */; };
+		C33A9FC6157BEBD5007196EB /* TATankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C33A9FC4157BEBD4007196EB /* TATankViewController.m */; };
+		C33A9FCB157BECBE007196EB /* TAUnitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C33A9FC9157BECBD007196EB /* TAUnitViewController.m */; };
+		C33A9FCC157BECBE007196EB /* TAUnitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C33A9FCA157BECBE007196EB /* TAUnitViewController.xib */; };
+		C3A057AE154C76B1002B2D01 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A057AD154C76B1002B2D01 /* UIKit.framework */; };
+		C3A057B0154C76B1002B2D01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A057AF154C76B1002B2D01 /* Foundation.framework */; };
+		C3A057B2154C76B1002B2D01 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3A057B1154C76B1002B2D01 /* CoreGraphics.framework */; };
+		C3A057B8154C76B1002B2D01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C3A057B6154C76B1002B2D01 /* InfoPlist.strings */; };
+		C3A057BA154C76B1002B2D01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A057B9154C76B1002B2D01 /* main.m */; };
+		C3A057BE154C76B1002B2D01 /* TAAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A057BD154C76B1002B2D01 /* TAAppDelegate.m */; };
+		C3A057C1154C76B1002B2D01 /* TAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A057C0154C76B1002B2D01 /* TAViewController.m */; };
+		C3A057C4154C76B1002B2D01 /* TAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3A057C2154C76B1002B2D01 /* TAViewController.xib */; };
+		C3A057CC154C77AF002B2D01 /* TAHex.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A057CB154C77AF002B2D01 /* TAHex.m */; };
+		C3A057CF154C77BA002B2D01 /* TAHexView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A057CE154C77BA002B2D01 /* TAHexView.m */; };
+		C3A057D2154C7893002B2D01 /* TABoard.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A057D1154C7893002B2D01 /* TABoard.m */; };
+		C3A057DB154C78F9002B2D01 /* TABoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3A057DA154C78F9002B2D01 /* TABoardViewController.m */; };
+		C3A057DD154DD410002B2D01 /* board.dat in Resources */ = {isa = PBXBuildFile; fileRef = C3A057DC154DD40F002B2D01 /* board.dat */; };
+		C3AD8749184A4B7900536568 /* TACombat.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AD8748184A4B7800536568 /* TACombat.m */; };
+		C3AD874C184A51AC00536568 /* TACombatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AD874B184A51AC00536568 /* TACombatViewController.m */; };
+		C3AD874E184BF3C000536568 /* TACombatViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3AD874D184BF3C000536568 /* TACombatViewController.xib */; };
+		C3D4DBF5158A50DC00A5582E /* TAPlane.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4DBF4158A50DC00A5582E /* TAPlane.m */; };
+		C3D4DBF9158A50F200A5582E /* TAPlaneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4DBF8158A50F200A5582E /* TAPlaneViewController.m */; };
+		C3D4DBFD158A597900A5582E /* TAAirAllocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3D4DBFB158A597800A5582E /* TAAirAllocationViewController.m */; };
+		C3D4DBFE158A597900A5582E /* TAAirAllocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C3D4DBFC158A597800A5582E /* TAAirAllocationViewController.xib */; };
+		C3F76F881588196F007445B8 /* TAUnitView.m in Sources */ = {isa = PBXBuildFile; fileRef = C3F76F871588196F007445B8 /* TAUnitView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C30BF7E21868AA3F00BDE87E /* TAArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAArrowView.h; sourceTree = "<group>"; };
+		C30BF7E31868AA3F00BDE87E /* TAArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAArrowView.m; sourceTree = "<group>"; };
+		C30BF7E51869E2D700BDE87E /* TAHandleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAHandleView.h; sourceTree = "<group>"; };
+		C30BF7E61869E2D700BDE87E /* TAHandleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAHandleView.m; sourceTree = "<group>"; };
+		C33A9E9E1571829C007196EB /* TAConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAConstants.h; sourceTree = "<group>"; };
+		C33A9EA115718442007196EB /* clear1.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = clear1.bmp; sourceTree = "<group>"; };
+		C33A9EA215718442007196EB /* clear2.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = clear2.bmp; sourceTree = "<group>"; };
+		C33A9EA315718442007196EB /* clear3.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = clear3.bmp; sourceTree = "<group>"; };
+		C33A9EC215718442007196EB /* lake.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = lake.bmp; sourceTree = "<group>"; };
+		C33A9ED115718442007196EB /* road.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = road.bmp; sourceTree = "<group>"; };
+		C33A9ED215718442007196EB /* rocky1.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = rocky1.bmp; sourceTree = "<group>"; };
+		C33A9ED315718442007196EB /* rocky2.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = rocky2.bmp; sourceTree = "<group>"; };
+		C33A9ED415718442007196EB /* rocky3.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = rocky3.bmp; sourceTree = "<group>"; };
+		C33A9ED515718442007196EB /* urban1.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = urban1.bmp; sourceTree = "<group>"; };
+		C33A9ED615718442007196EB /* urban2.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = urban2.bmp; sourceTree = "<group>"; };
+		C33A9ED715718442007196EB /* urban3.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = urban3.bmp; sourceTree = "<group>"; };
+		C33A9ED815718442007196EB /* white.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = white.bmp; sourceTree = "<group>"; };
+		C33A9ED915718442007196EB /* woods1.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = woods1.bmp; sourceTree = "<group>"; };
+		C33A9EDA15718442007196EB /* woods2.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = woods2.bmp; sourceTree = "<group>"; };
+		C33A9EDB15718442007196EB /* woods3.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = woods3.bmp; sourceTree = "<group>"; };
+		C33A9F2A15718C5F007196EB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C33A9F8E157ACF1B007196EB /* TAUnit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAUnit.h; sourceTree = "<group>"; };
+		C33A9F8F157ACF1C007196EB /* TAUnit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAUnit.m; sourceTree = "<group>"; };
+		C33A9F92157AD289007196EB /* TATank.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATank.h; sourceTree = "<group>"; };
+		C33A9F93157AD289007196EB /* TATank.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATank.m; sourceTree = "<group>"; };
+		C33A9F95157AD5DA007196EB /* TAGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGame.h; sourceTree = "<group>"; };
+		C33A9F96157AD5DA007196EB /* TAGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAGame.m; sourceTree = "<group>"; };
+		C33A9F98157AD5F7007196EB /* TAGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAGameViewController.h; sourceTree = "<group>"; };
+		C33A9F99157AD5F8007196EB /* TAGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAGameViewController.m; sourceTree = "<group>"; };
+		C33A9F9A157AD5F8007196EB /* TAGameViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAGameViewController.xib; sourceTree = "<group>"; };
+		C33A9FA0157AD841007196EB /* TATeam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATeam.h; sourceTree = "<group>"; };
+		C33A9FA1157AD841007196EB /* TATeam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATeam.m; sourceTree = "<group>"; };
+		C33A9FA3157AE2AC007196EB /* TARoundedOverlayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TARoundedOverlayView.h; sourceTree = "<group>"; };
+		C33A9FA4157AE2AD007196EB /* TARoundedOverlayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TARoundedOverlayView.m; sourceTree = "<group>"; };
+		C33A9FBA157BE4C5007196EB /* TATankPlacementViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATankPlacementViewController.h; sourceTree = "<group>"; };
+		C33A9FBB157BE4C5007196EB /* TATankPlacementViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATankPlacementViewController.m; sourceTree = "<group>"; };
+		C33A9FBC157BE4C5007196EB /* TATankPlacementViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TATankPlacementViewController.xib; sourceTree = "<group>"; };
+		C33A9FC3157BEBD4007196EB /* TATankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATankViewController.h; sourceTree = "<group>"; };
+		C33A9FC4157BEBD4007196EB /* TATankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATankViewController.m; sourceTree = "<group>"; };
+		C33A9FC8157BECBD007196EB /* TAUnitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAUnitViewController.h; sourceTree = "<group>"; };
+		C33A9FC9157BECBD007196EB /* TAUnitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAUnitViewController.m; sourceTree = "<group>"; };
+		C33A9FCA157BECBE007196EB /* TAUnitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAUnitViewController.xib; sourceTree = "<group>"; };
+		C3A057A9154C76B1002B2D01 /* tacair.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tacair.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3A057AD154C76B1002B2D01 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C3A057AF154C76B1002B2D01 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C3A057B1154C76B1002B2D01 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C3A057B5154C76B1002B2D01 /* tacair-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "tacair-Info.plist"; sourceTree = "<group>"; };
+		C3A057B7154C76B1002B2D01 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C3A057B9154C76B1002B2D01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3A057BB154C76B1002B2D01 /* tacair-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "tacair-Prefix.pch"; sourceTree = "<group>"; };
+		C3A057BC154C76B1002B2D01 /* TAAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAAppDelegate.h; sourceTree = "<group>"; };
+		C3A057BD154C76B1002B2D01 /* TAAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAAppDelegate.m; sourceTree = "<group>"; };
+		C3A057BF154C76B1002B2D01 /* TAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TAViewController.h; sourceTree = "<group>"; };
+		C3A057C0154C76B1002B2D01 /* TAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TAViewController.m; sourceTree = "<group>"; };
+		C3A057C3154C76B1002B2D01 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TAViewController.xib; sourceTree = "<group>"; };
+		C3A057CA154C77AF002B2D01 /* TAHex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAHex.h; sourceTree = "<group>"; };
+		C3A057CB154C77AF002B2D01 /* TAHex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAHex.m; sourceTree = "<group>"; };
+		C3A057CD154C77BA002B2D01 /* TAHexView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAHexView.h; sourceTree = "<group>"; };
+		C3A057CE154C77BA002B2D01 /* TAHexView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAHexView.m; sourceTree = "<group>"; };
+		C3A057D0154C7893002B2D01 /* TABoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABoard.h; sourceTree = "<group>"; };
+		C3A057D1154C7893002B2D01 /* TABoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABoard.m; sourceTree = "<group>"; };
+		C3A057D9154C78F8002B2D01 /* TABoardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TABoardViewController.h; sourceTree = "<group>"; };
+		C3A057DA154C78F9002B2D01 /* TABoardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TABoardViewController.m; sourceTree = "<group>"; };
+		C3A057DC154DD40F002B2D01 /* board.dat */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = board.dat; sourceTree = "<group>"; };
+		C3AD8747184A4B7800536568 /* TACombat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TACombat.h; sourceTree = "<group>"; };
+		C3AD8748184A4B7800536568 /* TACombat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TACombat.m; sourceTree = "<group>"; };
+		C3AD874A184A51AC00536568 /* TACombatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TACombatViewController.h; sourceTree = "<group>"; };
+		C3AD874B184A51AC00536568 /* TACombatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TACombatViewController.m; sourceTree = "<group>"; };
+		C3AD874D184BF3C000536568 /* TACombatViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TACombatViewController.xib; sourceTree = "<group>"; };
+		C3D4DBF3158A50DB00A5582E /* TAPlane.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPlane.h; sourceTree = "<group>"; };
+		C3D4DBF4158A50DC00A5582E /* TAPlane.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPlane.m; sourceTree = "<group>"; };
+		C3D4DBF7158A50F100A5582E /* TAPlaneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPlaneViewController.h; sourceTree = "<group>"; };
+		C3D4DBF8158A50F200A5582E /* TAPlaneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPlaneViewController.m; sourceTree = "<group>"; };
+		C3D4DBFA158A597700A5582E /* TAAirAllocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAirAllocationViewController.h; sourceTree = "<group>"; };
+		C3D4DBFB158A597800A5582E /* TAAirAllocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAirAllocationViewController.m; sourceTree = "<group>"; };
+		C3D4DBFC158A597800A5582E /* TAAirAllocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TAAirAllocationViewController.xib; sourceTree = "<group>"; };
+		C3F76F861588196F007445B8 /* TAUnitView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAUnitView.h; sourceTree = "<group>"; };
+		C3F76F871588196F007445B8 /* TAUnitView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAUnitView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3A057A6154C76B1002B2D01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C33A9F2B15718C5F007196EB /* QuartzCore.framework in Frameworks */,
+				C3A057AE154C76B1002B2D01 /* UIKit.framework in Frameworks */,
+				C3A057B0154C76B1002B2D01 /* Foundation.framework in Frameworks */,
+				C3A057B2154C76B1002B2D01 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C33A9EA015718442007196EB /* terrain */ = {
+			isa = PBXGroup;
+			children = (
+				C33A9EA115718442007196EB /* clear1.bmp */,
+				C33A9EA215718442007196EB /* clear2.bmp */,
+				C33A9EA315718442007196EB /* clear3.bmp */,
+				C33A9EC215718442007196EB /* lake.bmp */,
+				C33A9ED115718442007196EB /* road.bmp */,
+				C33A9ED215718442007196EB /* rocky1.bmp */,
+				C33A9ED315718442007196EB /* rocky2.bmp */,
+				C33A9ED415718442007196EB /* rocky3.bmp */,
+				C33A9ED515718442007196EB /* urban1.bmp */,
+				C33A9ED615718442007196EB /* urban2.bmp */,
+				C33A9ED715718442007196EB /* urban3.bmp */,
+				C33A9ED815718442007196EB /* white.bmp */,
+				C33A9ED915718442007196EB /* woods1.bmp */,
+				C33A9EDA15718442007196EB /* woods2.bmp */,
+				C33A9EDB15718442007196EB /* woods3.bmp */,
+			);
+			name = terrain;
+			path = ../terrain;
+			sourceTree = "<group>";
+		};
+		C3A0579E154C76B1002B2D01 = {
+			isa = PBXGroup;
+			children = (
+				C3A057B3154C76B1002B2D01 /* tacair */,
+				C3A057AC154C76B1002B2D01 /* Frameworks */,
+				C3A057AA154C76B1002B2D01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3A057AA154C76B1002B2D01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3A057A9154C76B1002B2D01 /* tacair.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3A057AC154C76B1002B2D01 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C33A9F2A15718C5F007196EB /* QuartzCore.framework */,
+				C3A057AD154C76B1002B2D01 /* UIKit.framework */,
+				C3A057AF154C76B1002B2D01 /* Foundation.framework */,
+				C3A057B1154C76B1002B2D01 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C3A057B3154C76B1002B2D01 /* tacair */ = {
+			isa = PBXGroup;
+			children = (
+				C33A9E9E1571829C007196EB /* TAConstants.h */,
+				C3A057BC154C76B1002B2D01 /* TAAppDelegate.h */,
+				C3A057BD154C76B1002B2D01 /* TAAppDelegate.m */,
+				C3A057BF154C76B1002B2D01 /* TAViewController.h */,
+				C3A057C0154C76B1002B2D01 /* TAViewController.m */,
+				C3A057C2154C76B1002B2D01 /* TAViewController.xib */,
+				C33A9F95157AD5DA007196EB /* TAGame.h */,
+				C33A9F96157AD5DA007196EB /* TAGame.m */,
+				C33A9F98157AD5F7007196EB /* TAGameViewController.h */,
+				C33A9F99157AD5F8007196EB /* TAGameViewController.m */,
+				C33A9F9A157AD5F8007196EB /* TAGameViewController.xib */,
+				C33A9FBA157BE4C5007196EB /* TATankPlacementViewController.h */,
+				C33A9FBB157BE4C5007196EB /* TATankPlacementViewController.m */,
+				C33A9FBC157BE4C5007196EB /* TATankPlacementViewController.xib */,
+				C3A057D0154C7893002B2D01 /* TABoard.h */,
+				C3A057D1154C7893002B2D01 /* TABoard.m */,
+				C3A057DC154DD40F002B2D01 /* board.dat */,
+				C3A057D9154C78F8002B2D01 /* TABoardViewController.h */,
+				C3A057DA154C78F9002B2D01 /* TABoardViewController.m */,
+				C3D4DBFA158A597700A5582E /* TAAirAllocationViewController.h */,
+				C3D4DBFB158A597800A5582E /* TAAirAllocationViewController.m */,
+				C3D4DBFC158A597800A5582E /* TAAirAllocationViewController.xib */,
+				C3A057CA154C77AF002B2D01 /* TAHex.h */,
+				C3A057CB154C77AF002B2D01 /* TAHex.m */,
+				C3A057CD154C77BA002B2D01 /* TAHexView.h */,
+				C3A057CE154C77BA002B2D01 /* TAHexView.m */,
+				C33A9FA0157AD841007196EB /* TATeam.h */,
+				C33A9FA1157AD841007196EB /* TATeam.m */,
+				C33A9F8E157ACF1B007196EB /* TAUnit.h */,
+				C33A9F8F157ACF1C007196EB /* TAUnit.m */,
+				C33A9FC8157BECBD007196EB /* TAUnitViewController.h */,
+				C33A9FC9157BECBD007196EB /* TAUnitViewController.m */,
+				C33A9FCA157BECBE007196EB /* TAUnitViewController.xib */,
+				C3F76F861588196F007445B8 /* TAUnitView.h */,
+				C3F76F871588196F007445B8 /* TAUnitView.m */,
+				C33A9F92157AD289007196EB /* TATank.h */,
+				C33A9F93157AD289007196EB /* TATank.m */,
+				C33A9FC3157BEBD4007196EB /* TATankViewController.h */,
+				C33A9FC4157BEBD4007196EB /* TATankViewController.m */,
+				C3D4DBF3158A50DB00A5582E /* TAPlane.h */,
+				C3D4DBF4158A50DC00A5582E /* TAPlane.m */,
+				C3D4DBF7158A50F100A5582E /* TAPlaneViewController.h */,
+				C3D4DBF8158A50F200A5582E /* TAPlaneViewController.m */,
+				C3AD8747184A4B7800536568 /* TACombat.h */,
+				C3AD8748184A4B7800536568 /* TACombat.m */,
+				C3AD874A184A51AC00536568 /* TACombatViewController.h */,
+				C3AD874B184A51AC00536568 /* TACombatViewController.m */,
+				C3AD874D184BF3C000536568 /* TACombatViewController.xib */,
+				C33A9FA3157AE2AC007196EB /* TARoundedOverlayView.h */,
+				C33A9FA4157AE2AD007196EB /* TARoundedOverlayView.m */,
+				C30BF7E51869E2D700BDE87E /* TAHandleView.h */,
+				C30BF7E61869E2D700BDE87E /* TAHandleView.m */,
+				C30BF7E21868AA3F00BDE87E /* TAArrowView.h */,
+				C30BF7E31868AA3F00BDE87E /* TAArrowView.m */,
+				C3A057B4154C76B1002B2D01 /* Supporting Files */,
+				C33A9EA015718442007196EB /* terrain */,
+			);
+			path = tacair;
+			sourceTree = "<group>";
+		};
+		C3A057B4154C76B1002B2D01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3A057B5154C76B1002B2D01 /* tacair-Info.plist */,
+				C3A057B6154C76B1002B2D01 /* InfoPlist.strings */,
+				C3A057B9154C76B1002B2D01 /* main.m */,
+				C3A057BB154C76B1002B2D01 /* tacair-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3A057A8154C76B1002B2D01 /* tacair */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3A057C7154C76B1002B2D01 /* Build configuration list for PBXNativeTarget "tacair" */;
+			buildPhases = (
+				C3A057A5154C76B1002B2D01 /* Sources */,
+				C3A057A6154C76B1002B2D01 /* Frameworks */,
+				C3A057A7154C76B1002B2D01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tacair;
+			productName = tacair;
+			productReference = C3A057A9154C76B1002B2D01 /* tacair.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3A057A0154C76B1002B2D01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = TA;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = C3A057A3154C76B1002B2D01 /* Build configuration list for PBXProject "tacair" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C3A0579E154C76B1002B2D01;
+			productRefGroup = C3A057AA154C76B1002B2D01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3A057A8154C76B1002B2D01 /* tacair */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3A057A7154C76B1002B2D01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A057B8154C76B1002B2D01 /* InfoPlist.strings in Resources */,
+				C3A057C4154C76B1002B2D01 /* TAViewController.xib in Resources */,
+				C3A057DD154DD410002B2D01 /* board.dat in Resources */,
+				C33A9EDC15718442007196EB /* clear1.bmp in Resources */,
+				C33A9EDD15718442007196EB /* clear2.bmp in Resources */,
+				C33A9EDE15718442007196EB /* clear3.bmp in Resources */,
+				C33A9EFB15718442007196EB /* lake.bmp in Resources */,
+				C33A9F0915718442007196EB /* road.bmp in Resources */,
+				C33A9F0A15718442007196EB /* rocky1.bmp in Resources */,
+				C33A9F0B15718442007196EB /* rocky2.bmp in Resources */,
+				C33A9F0C15718442007196EB /* rocky3.bmp in Resources */,
+				C33A9F0D15718442007196EB /* urban1.bmp in Resources */,
+				C33A9F0E15718442007196EB /* urban2.bmp in Resources */,
+				C33A9F0F15718442007196EB /* urban3.bmp in Resources */,
+				C33A9F1015718442007196EB /* white.bmp in Resources */,
+				C33A9F1115718442007196EB /* woods1.bmp in Resources */,
+				C33A9F1215718442007196EB /* woods2.bmp in Resources */,
+				C33A9F1315718442007196EB /* woods3.bmp in Resources */,
+				C33A9F9C157AD5F9007196EB /* TAGameViewController.xib in Resources */,
+				C33A9FBE157BE4C5007196EB /* TATankPlacementViewController.xib in Resources */,
+				C3AD874E184BF3C000536568 /* TACombatViewController.xib in Resources */,
+				C33A9FCC157BECBE007196EB /* TAUnitViewController.xib in Resources */,
+				C3D4DBFE158A597900A5582E /* TAAirAllocationViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3A057A5154C76B1002B2D01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3A057BA154C76B1002B2D01 /* main.m in Sources */,
+				C3AD874C184A51AC00536568 /* TACombatViewController.m in Sources */,
+				C3A057BE154C76B1002B2D01 /* TAAppDelegate.m in Sources */,
+				C3A057C1154C76B1002B2D01 /* TAViewController.m in Sources */,
+				C3A057CC154C77AF002B2D01 /* TAHex.m in Sources */,
+				C3A057CF154C77BA002B2D01 /* TAHexView.m in Sources */,
+				C3A057D2154C7893002B2D01 /* TABoard.m in Sources */,
+				C3A057DB154C78F9002B2D01 /* TABoardViewController.m in Sources */,
+				C30BF7E41868AA3F00BDE87E /* TAArrowView.m in Sources */,
+				C3AD8749184A4B7900536568 /* TACombat.m in Sources */,
+				C33A9F90157ACF1C007196EB /* TAUnit.m in Sources */,
+				C33A9F94157AD289007196EB /* TATank.m in Sources */,
+				C33A9F97157AD5DA007196EB /* TAGame.m in Sources */,
+				C33A9F9B157AD5F9007196EB /* TAGameViewController.m in Sources */,
+				C33A9FA2157AD842007196EB /* TATeam.m in Sources */,
+				C33A9FA5157AE2AD007196EB /* TARoundedOverlayView.m in Sources */,
+				C33A9FBD157BE4C5007196EB /* TATankPlacementViewController.m in Sources */,
+				C33A9FC6157BEBD5007196EB /* TATankViewController.m in Sources */,
+				C33A9FCB157BECBE007196EB /* TAUnitViewController.m in Sources */,
+				C3F76F881588196F007445B8 /* TAUnitView.m in Sources */,
+				C3D4DBF5158A50DC00A5582E /* TAPlane.m in Sources */,
+				C30BF7E71869E2D700BDE87E /* TAHandleView.m in Sources */,
+				C3D4DBF9158A50F200A5582E /* TAPlaneViewController.m in Sources */,
+				C3D4DBFD158A597900A5582E /* TAAirAllocationViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C3A057B6154C76B1002B2D01 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3A057B7154C76B1002B2D01 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C3A057C2154C76B1002B2D01 /* TAViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3A057C3154C76B1002B2D01 /* en */,
+			);
+			name = TAViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3A057C5154C76B1002B2D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C3A057C6154C76B1002B2D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3A057C8154C76B1002B2D01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tacair/tacair-Prefix.pch";
+				INFOPLIST_FILE = "tacair/tacair-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C3A057C9154C76B1002B2D01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "tacair/tacair-Prefix.pch";
+				INFOPLIST_FILE = "tacair/tacair-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3A057A3154C76B1002B2D01 /* Build configuration list for PBXProject "tacair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3A057C5154C76B1002B2D01 /* Debug */,
+				C3A057C6154C76B1002B2D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3A057C7154C76B1002B2D01 /* Build configuration list for PBXNativeTarget "tacair" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3A057C8154C76B1002B2D01 /* Debug */,
+				C3A057C9154C76B1002B2D01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3A057A0154C76B1002B2D01 /* Project object */;
+}
